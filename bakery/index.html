@@ -1,0 +1,1887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bakery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="bakery.js" defer></script>
+    
+</head>
+<body>
+
+  <header>
+    <div class="container position-relative">
+      <div class="d-flex justify-content-between align-items-center header-main">
+        <!-- Left: Logo -->
+        <div class="logo">
+          <h1 class="logo-title">Cherii<span class="cherry-icon"></span></h1>
+          <p class="logo-subtitle">Bakery & Cakes</p>
+        </div>
+  
+        <!-- Center: Nav links -->
+        <ul class="nav header-nav">
+          <li class="nav-item"><a class="nav-link active" href="#home">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">ABOUT US</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">OUR PRODUCTS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#blog">BLOG</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">CONTACT US</a></li>
+        </ul>
+  
+        <!-- Right: Icons + Login -->
+        <div class="text-end header-right">
+          <div class="icons mb-1">
+            <i class="bi bi-heart" onclick="showSection('whish')"></i>
+            <i class="bi bi-bell"></i>
+            <i class="bi bi-bag"></i>
+          </div>
+          <button class="login-btn" onclick="showSection('login')">LOGIN</button>
+        </div>
+      </div>
+  
+      <!-- Search Bar -->
+      <div class="search-container mb-5 ">
+        <i class="bi bi-search"></i>
+        <input type="text" class="form-control" placeholder="SEARCH HERE">
+      </div>
+    </div>
+  </header>
+  
+    <section id="home">
+      <div class="slideshow">
+      <img src="bakery website/hero1.JPG" class="slide" alt="college">
+      <img src="bakery website/hero2.JPG" class="slide" alt="conference">
+    <img src="bakery website/her04.JPG" class="slide" alt="service">
+    <img src="bakery website/hero1.JPG" class="slide" alt="college">
+      <img src="bakery website/hero2.JPG" class="slide" alt="conference">
+    
+    </div>
+
+    <div class="why-choose">
+        <h2>Why Choose Us</h2>
+        <div class="container">
+            <div class="row g-1">
+                <div class="col-md">
+                    <div class="card-custom">
+                        <div class="icon-circle"><i class="bi bi-cake"></i></div>
+                        <h4>Fresh, Handcrafted Daily</h4>
+                        <p>Every morning, our bakers start early to bring you the freshest breads, pastries, and cakes — made from scratch using real, wholesome ingredients.</p>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card-custom">
+                        <div class="icon-circle"><i class="bi bi-emoji-smile"></i></div>
+                        <h4>Locally Sourced Ingredients</h4>
+                        <p>We partner with local farms and suppliers to ensure the highest quality and support our community.</p>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card-custom">
+                        <div class="icon-circle"><i class="bi bi-brush"></i></div>
+                        <h4>Unique & Custom Creations</h4>
+                        <p>From classic croissants to custom birthday cakes, we bake with creativity and care — tailored to your tastes and special occasions.</p>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card-custom">
+                        <div class="icon-circle"><i class="bi bi-heart"></i></div>
+                        <h4>Warm, Welcoming Atmosphere</h4>
+                        <p>We’re more than just a bakery — we’re your neighborhood spot for sweet treats, good coffee, and friendly smiles.</p>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card-custom">
+                        <div class="icon-circle"><i class="bi bi-award"></i></div>
+                        <h4>Passion for Excellence</h4>
+                        <p>Baking is our passion, and it shows in every detail — from the golden crust to the last crumb.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <h2 class="text-center mb-5">OFFERS AND DEALS</h2>
+    <div class="container-fluid p-0">
+      <div class="bg-custom"></div>
+    </div>
+      
+      <div class="faq-section">
+        <div class="container">
+          <h2 class="section-heading">COMMON QUESTION FOR CUSTOMERS</h2>
+          <div class="row align-items-start">
+            <!-- Left Side: FAQ -->
+            <div class="col-md-7">
+              <!-- Q1 -->
+              <div class="mb-4">
+                <p class="faq-question">1. What kind of content do you post on your blog?</p>
+                <p class="answer">We share a variety of content including baking tips, behind-the-scenes stories from our bakery, seasonal updates, recipes, product highlights, and community events.</p>
+                <div class="faq-divider"></div>
+              </div>
+              <!-- Q2 -->
+              <div class="mb-4">
+                <p class="faq-question">2. How often do you update the blog?</p>
+                <p class="answer">We aim to post new content at least once or twice a month. Check back regularly or subscribe to our newsletter for updates.</p>
+                <div class="faq-divider"></div>
+              </div>
+              <!-- Q3 -->
+              <div class="mb-4">
+                <p class="faq-question">3. Can I request a blog topic or recipe?</p>
+                <p class="answer">Absolutely! We love hearing from our readers. If there's a recipe or topic you’d like us to cover, feel free to contact us or leave a comment on a blog post.</p>
+                <div class="faq-divider"></div>
+              </div>
+              <!-- Q4 -->
+              <div class="mb-4">
+                <p class="faq-question">4. Are the recipes you share easy to follow for beginners?</p>
+                <p class="answer">Yes! We include clear instructions, tips, and sometimes even step-by-step photos to help bakers of all levels enjoy the process.</p>
+                <div class="faq-divider"></div>
+              </div>
+              <!-- Q5 -->
+              <div>
+                <p class="faq-question">5. Do you feature guest posts or collaborations?</p>
+                <p class="answer">We’re open to collaborating with local chefs, food bloggers, and other creatives to bring fresh perspectives and exciting new ideas to our readers.</p>
+              </div>
+            </div>
+      
+            <!-- Right Side: Image -->
+            <div class="col-md-5">
+              <img src="bakery website/4dd18bd1733e15e94c7ad899eaad12fc 1.png" alt="Macarons" class="faq-image">
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="container">
+              
+                
+      <img src="bakery website/5fade234b61c21ff46b3cca75777c56a-removebg-preview 1.png" alt="Decorative Line" class="decorative-line">
+    
+  </div>
+
+  <div class="container">
+    <h2 class="section-heading">OUR CUSTOMERS LOVE</h2>
+  </div>
+    <div class="hero-section">
+      <img src="bakery website/Frame 16.png" alt="Bakery Accelerator Program" class="img-fluid w-100 d-block">
+    </div>
+    
+    
+    
+  <div class="container-fluid banner">
+    <div class="d-flex justify-content-center align-items-center">
+      <span class="banner-text me-3">Direct visits chat item available</span>
+      <div class="d-flex flex-column align-items-center">
+        <span class="arrow">→</span>
+        <span class="see-menu">see menu</span>
+      </div>
+    </div>
+  </div>
+
+    </section>
+
+
+
+    <section id="about" >
+        <div class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">ABOUT US</h2>
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <p class="about-text">Baking From the Heart Since 2012<br>
+                      
+                            At Chreii Bakery, every loaf, pastry, and cake tells a story. What started as a small kitchen passion has blossomed into a community favorite. We believe in using time-honored recipes, fresh local ingredients, and a generous sprinkle of love in every bite.
+                        </p>
+                        <p class="about-text">
+                            Our mission is to bring joy through handcrafted baked goods made daily with care and dedication. Whether it's your morning bread or a special occasion cake, we treat each creation as if it’s for family.
+                        </p>
+                        <p class="about-text">
+                            We’re proud to serve our neighborhood, support local farmers, and bake a little happiness into every day.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <img src="bakery website/f25dfb0d32fcf7b79e1d8a8e8602ed42 1.png" alt="Bake It Till You Make It" class="about-img ">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Left: Image -->
+                    <div class="col-lg-4 text-center mb-4 mb-lg-0">
+                        <img src="bakery website/687c3c25f948e2ce2c65ea97ff50cc2d 1.png" alt="The Secret Ingredient" class="story-img ">
+                    </div>
+        
+                    <!-- Right: Text -->
+                    <div class="col-lg-8">
+                        <h2 class="mb-3">OUR STORY</h2>
+                        <p class="about-text">
+                            Cherii Bakery began as a home kitchen dream and quickly became a beloved neighborhood treasure. 
+                            Founded on the values of quality, community, and homemade charm, we bake everything fresh each day 
+                            using family recipes and locally sourced ingredients.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="why-choose">
+          <h2>WHat We Believe in</h2>
+          <div class="container">
+              <div class="row g-1">
+                  <div class="col-md">
+                      <div class="card-custom">
+                          <div class="icon-circle"><i class="bi bi-cake"></i></div>
+                          <h4>Fresh, Handcrafted Daily</h4>
+                          <p>Every morning, our bakers start early to bring you the freshest breads, pastries, and cakes — made from scratch using real, wholesome ingredients.</p>
+                      </div>
+                  </div>
+                  <div class="col-md">
+                      <div class="card-custom">
+                          <div class="icon-circle"><i class="bi bi-emoji-smile"></i></div>
+                          <h4>Locally Sourced Ingredients</h4>
+                          <p>We partner with local farms and suppliers to ensure the highest quality and support our community.</p>
+                      </div>
+                  </div>
+                  <div class="col-md">
+                      <div class="card-custom">
+                          <div class="icon-circle"><i class="bi bi-brush"></i></div>
+                          <h4>Unique & Custom Creations</h4>
+                          <p>From classic croissants to custom birthday cakes, we bake with creativity and care — tailored to your tastes and special occasions.</p>
+                      </div>
+                  </div>
+                  <div class="col-md">
+                      <div class="card-custom">
+                          <div class="icon-circle"><i class="bi bi-heart"></i></div>
+                          <h4>Warm, Welcoming Atmosphere</h4>
+                          <p>We’re more than just a bakery — we’re your neighborhood spot for sweet treats, good coffee, and friendly smiles.</p>
+                      </div>
+                  </div>
+                  <div class="col-md">
+                      <div class="card-custom">
+                          <div class="icon-circle"><i class="bi bi-award"></i></div>
+                          <h4>Passion for Excellence</h4>
+                          <p>Baking is our passion, and it shows in every detail — from the golden crust to the last crumb.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+        <div class="container my-4">
+            <div class="meet-bakery text-center">
+              <h2 class="mb-3">MEET THE BAKERY</h2>
+              <p class="fw-semibold">
+                Our team is made up of passionate bakers who bring skill, creativity, and care to every product. 
+                From our Head Baker to pastry chefs, everyone shares a commitment to quality and customer happiness.
+              </p>
+            </div>
+          </div>
+
+          <div class="visit-section">
+            <div class="container">
+              <div class="row align-items-center">
+                <h2 class="visit-heading text-uppercase mb-2 text-center">Come Visit Us</h2>
+                <!-- Left Text Column -->
+                <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+
+                  <p class="visit-title text-center">We’re serving smiles across Tamil Nadu with many franchise locations!</p>
+                  <p class="mb-3 visit-title text-center">Drop by your nearest branch and enjoy our
+                    fresh handcrafted treats.</p>
+                  
+                  <h5 class="fw-bold mt-4" style="color: #e47c32;">Head Office</h5>
+                  <div class="head">
+                  <p>Cherii Bakery</p>
+                  <p>No. 45, Anna Salai,T-nagar,</p>
+                  <p>chennai 600017,</p>
+                  <p>Tamilnadu,India</p>
+                  </div>
+                </div>
+                
+                <!-- Right Image Column -->
+                <div class="col-lg-6 col-md-12 text-center">
+                  <img src="bakery website/e666b9f75f8d74504bd224ceec0804c5 1.png" alt="Visit Us" class="visit-image">
+                </div>
+                
+              </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="products">
+<div class="row pt-4">
+      <div class="col-md-4">
+        <div class="card" onclick="showSection('cakes')">
+          <img src="bakery website/product1.JPG" alt="Pastries">
+          <div class="card-body">
+            <div class="title">CAKES</div>
+            <div class="types">25 TYPES</div>
+          </div>
+        </div>
+      </div>
+  
+      
+      
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="bakery website/product2.JPG" alt="Pastries">
+                  <div class="card-body">
+                    <div class="title">PASTRIES</div>
+                    <div class="types">15 TYPES</div>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-md-4">
+                <div class="card" onclick="showSection('sweets')">
+                  <img src="bakery website/product3.JPG" alt="Sweets">
+                  <div class="card-body">
+                    <div class="title">SWEETS</div>
+                    <div class="types">25 TYPES</div>
+                  </div>
+                </div>
+              </div>
+</div>
+
+<div class="row pt-4">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="bakery website/product4.JPG" alt="Pastries">
+                  <div class="card-body">
+                    <div class="title">GIFT BOX</div>
+                    <div class="types">10 TYPES</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="bakery website/product5.JPG" alt="Pastries">
+                  <div class="card-body">
+                    <div class="title">SEVORIES</div>
+                    <div class="types">34 TYPES</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="bakery website/product6.JPG" alt="Pastries">
+                  <div class="card-body">
+                    <div class="title">BREADS</div>
+                    <div class="types">14 TYPES</div>
+                  </div>
+                </div>
+              </div>
+</div>
+
+<div class="row pt-4">
+              <div class="col-md-4">
+                <div class="card" onclick="showSection('cookies')">
+                  <img src="bakery website/product7.JPG" alt="Pastries">
+                  <div class="card-body">
+                    <div class="title">COOKIES & BISCUITS</div>
+                    <div class="types">15 TYPES</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="bakery website/product8.JPG" alt="Pastries">
+                  <div class="card-body">
+                    <div class="title">CREM ROLL</div>
+                    <div class="types">4 TYPES</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="bakery website/product9.JPG" alt="Pastries">
+                  <div class="card-body">
+                    <div class="title">MUFFINS & FRUIT CAKE</div>
+                    <div class="types">18 TYPES</div>
+                  </div>
+                </div>
+              </div>
+</div>
+
+<div class="row pt-4">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="bakery website/product10.JPG" alt="Pastries">
+                  <div class="card-body">
+                    <div class="title">CHIPS</div>
+                    <div class="types">5 TYPES</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="bakery website/product11.JPG" alt="Pastries">
+                  <div class="card-body">
+                    <div class="title">CHOCOLATE</div>
+                    <div class="types">10 TYPES</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="bakery website/product12.JPG" alt="Pastries">
+                  <div class="card-body">
+                    <div class="title">RUSK</div>
+                    <div class="types">7 TYPES</div>
+                  </div>
+                </div>
+              </div>
+</div>
+
+
+
+
+            </div>
+
+            <div class="container">
+              
+                
+                <img src="bakery website/5fade234b61c21ff46b3cca75777c56a-removebg-preview 1.png" alt="Decorative Line" class="decorative-line">
+              
+            </div>
+
+
+          
+          </section>
+
+          <section id="cakes">
+            <div class="container py-5">
+              <div class="row g-4">
+            
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/Cake1.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">BLACK FOREST CAKE CAKE</h5>
+                      <p class="mb-0">FROM: ₹600 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+            
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                  <div class="card position-relative" onclick="showSection('order')">
+                    <img src="bakery website/Cake2.JPG" class="card-img-top" alt="Choco Delight Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">CHOCO DELIGHT CAKE</h5>
+                      <p class="mb-0">FROM: ₹700 <small>PER KG</small></p>
+                    </div>
+                  </div>
+                </div>
+            
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/cake3.JPG" class="card-img-top" alt="Red Velvet Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">RED VELVET CAKE</h5>
+                      <p class="mb-0">FROM: ₹850 <small>PER KG</small></p>
+                    </div>
+                  </div>
+                </div>
+            
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/Cake4.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">venilla SPONGE CAKE</h5>
+                      <p class="mb-0">FROM: ₹500 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/Cake5.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">BUTTERSCOTCH CAKE</h5>
+                      <p class="mb-0">FROM: ₹650<small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/Cake6.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">PINEAPPLE CAKE</h5>
+                      <p class="mb-0">FROM: ₹550 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/Cake1.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">CHEESE CAKE</h5>
+                      <p class="mb-0">FROM: ₹1200 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/Cake2.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">CARROT  CAKE</h5>
+                      <p class="mb-0">FROM: ₹600 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/Cake3.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">TIRAMISU CAKE</h5>
+                      <p class="mb-0">FROM: ₹1250 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/Cake4.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">FRUIT CAKE</h5>
+                      <p class="mb-0">FROM: ₹900 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/Cake5.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">C0FFEE CAKE</h5>
+                      <p class="mb-0">FROM: ₹700 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/Cake6.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">KITKAT CAKE</h5>
+                      <p class="mb-0">FROM: ₹800 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/Cake1.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">RAINBOW CAKE</h5>
+                      <p class="mb-0">FROM: ₹1100 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/Cake2.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">OREO CAKE</h5>
+                      <p class="mb-0">FROM: ₹700 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/Cake3.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">BLUEBERRY CAKE</h5>
+                      <p class="mb-0">FROM: ₹1050 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/Cake4.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">RASAMALAI CAKE</h5>
+                      <p class="mb-0">FROM: ₹900 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/Cake5.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">STRAWBERRY CREAM CAKE</h5>
+                      <p class="mb-0">FROM: ₹700 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/Cake6.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">CUSTOMIZE THEME CAKE CAKE</h5>
+                      <p class="mb-0">FROM: ₹850 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+              
+              
+              </div>
+            </div>
+            
+            <!-- Bootstrap Icons -->
+          
+          </section>
+
+
+          <section id="order" style="background-color: #fff8f0;">
+            <div class="container py-5">
+              <div class="row g-4 align-items-center">
+                <!-- Image -->
+                <div class="col-lg-6">
+                  <div class="position-relative">
+                    <img src="bakery website/Cake2.JPG" alt="Choco Delight Cake" class="img-fluid product-img" style="height: 600px;">
+                    <div class="position-absolute bottom-0 end-0 m-3 d-flex gap-2">
+                      
+                    </div>
+                  </div>
+                </div>
+            
+                <!-- Details -->
+                <div class="col-lg-6">
+                  <p class="fw-semibold text-secondary mb-1">Cherii bakery</p>
+                  <h1 class="product-title">CHOCO DELIGHT CAKE</h1>
+                  <p class="mb-4 fs-2 fw-bold" style="color: black;line-height: 1.1;">
+                    This delectable treat is a heavenly combination of rich, velvety chocolate and a melt‑in‑your‑mouth texture. Whether you’re a chocolate lover or looking to satisfy your sweet tooth, Choco Delight Cake is the perfect choice.
+                  </p>
+                  <div class="price">₹ 400</div>
+                  <div class="tax">INCL. OF ALL TAXES</div>
+                
+
+      <!-- Weight Selection -->
+      <div class="mt-4">
+        <strong>WEIGHT:</strong>
+        <div class="d-flex gap-2 mt-2 flex-wrap">
+          <button class="btn btn-sm  weight-btn active">500 G</button>
+          <button class="btn btn-sm  weight-btn">1 KG</button>
+          <button class="btn btn-sm  weight-btn">2 KG</button>
+          <button class="btn btn-sm btn-light weight-btn">3 KG</button>
+          <button class="btn btn-sm btn-light weight-btn">4 KG</button>
+          <button class="btn btn-sm btn-light weight-btn">5 KG</button>
+        </div>
+      </div>
+
+      <!-- Quantity Selection -->
+      <div class="mt-4">
+        <strong>QUANTITY:</strong>
+        <div class="input-group quantity-control mt-2" style="width: fit-content;">
+          <button class="btn btn-light">+</button>
+          <input type="text" class="form-control" value="01">
+          <button class="btn btn-light">-</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container my-5">
+  <div class="row">
+    
+    <!-- Left side -->
+    <div class="col-md-6">
+      <!-- Pincode -->
+      <label class="form-label fw-bold">ENTER YOUR PINCODE*</label>
+      <input type="text" class="form-control mb-4" >
+
+      <!-- Info icons below input -->
+      <div class="d-flex align-items-center mb-3">
+        <div class="info-icon">🔒</div>
+        <span >100% secure payment</span>
+      </div>
+      <div class="d-flex align-items-center mb-3">
+        <div class="info-icon">⏱</div>
+        <span>24 hour preparation time</span>
+      </div>
+      
+        <!-- Vegetarian -->
+        <div class="d-flex align-items-center mb-3">
+          <div class="info-icon">🌱</div>
+          <span>100% vegetarian</span>
+        </div>
+        <!-- Note -->
+        <p class="mb-0">
+          **Note that all orders will be dispatched after 24 hours **
+        </p>
+      
+    
+    </div>
+
+    <!-- Right side -->
+    <div class="col-md-6 d-flex flex-column align-items-end">
+      <button class="btn btn-yellow mb-2" >ADD TO CART</button>
+      <button class="btn btn-yellow" onclick="showSection('payment')">BUY NOW</button>
+
+      <!-- Nutrition under buttons -->
+      <div class="nutrition-box mt-3 w-100">
+        <h5 class="fw-bold">Nutrition:</h5>
+        <p class="mb-0 fs-5" >
+          Serving Size (100g) (Amount per serving Calories 323 Kcal, Fat 11g,
+          Saturated Fat 7g, Trans Fat 0g, Cholesterol 11mg, Sodium 278mg,
+          Carbohydrate 51g, Sugar 26g, Protein 5g)<br>
+          An average active adult requires 2,000 kcal energy per day, however, calorie need may vary”</i>
+        </p>
+      </div>
+
+
+   
+  
+      <!-- Left side -->
+     
+      <!-- Right side -->
+    
+        <!-- Ingredients -->
+        <div class="nutrition-box mt-3 w-100">
+          <h5 class="fw-bold">Ingredients:</h5>
+          <p class="mb-0 fs-5 ">Chocolate Sponge, Sugar Syrup, Chocolate Cream, Chocolate Truffle</p>
+        </div>
+        
+        <!-- Allergies -->
+        <div class="nutrition-box">
+          <h5 class="fw-bold">Allergies</h5>
+          <p class="mb-0 fs-5 ">
+            Allergy Advice: Contains: Milk. Made in a factory that also handles:
+            Celery, Mustard, Sesame, Peanuts, Tree Nuts, Soya, Milk and Milk Products
+          </p>
+        </div>
+      </div>
+    
+    </div>
+
+
+  </div>
+</div>
+<h2 class="text-center mb-5 mt-5">YOU MAY ALSO LIKE</h2>
+<div class="container py-5">
+  <div class="row g-4">
+<div class="col-md-4">
+  <div class="card position-relative">
+    <img src="bakery website/Cake1.JPG" class="card-img-top" alt="Black Forest Cake">
+    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+      <i class="bi bi-heart"></i>
+    </button>
+    <div class="card-body text-center" style="background-color:#f5e8c7;">
+      <h5 class="fw-bold">BLACK FOREST CAKE CAKE</h5>
+      <p class="mb-0">FROM: ₹600 <small>PER KG</small></p>
+    </div>
+  
+  </div>
+</div>
+
+<!-- Card 2 -->
+
+
+<!-- Card 3 -->
+<div class="col-md-4">
+  <div class="card position-relative">
+    <img src="bakery website/cake3.JPG" class="card-img-top" alt="Red Velvet Cake">
+    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+      <i class="bi bi-heart"></i>
+    </button>
+    <div class="card-body text-center" style="background-color:#f5e8c7;">
+      <h5 class="fw-bold">RED VELVET CAKE</h5>
+      <p class="mb-0">FROM: ₹850 <small>PER KG</small></p>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-md-4">
+  <div class="card position-relative">
+    <img src="bakery website/Cake4.JPG" class="card-img-top" alt="Black Forest Cake">
+    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+      <i class="bi bi-heart"></i>
+    </button>
+    <div class="card-body text-center" style="background-color:#f5e8c7;">
+      <h5 class="fw-bold">venilla SPONGE CAKE</h5>
+      <p class="mb-0">FROM: ₹500 <small>PER KG</small></p>
+    </div>
+  
+  </div>
+</div>
+  </div>
+</div>
+
+          </section>
+          <section id="sweets">
+            <h2 class="text-center mb-5 mt-5">SWEETS</h2>
+            <div class="container py-5">
+              <div class="row g-4">
+            
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/s1.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">MILK BURFI</h5>
+                      <p class="mb-0">FROM: ₹600 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+            
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                  <div class="card position-relative" onclick="showSection('order')">
+                    <img src="bakery website/s2.JPG" class="card-img-top" alt="Choco Delight Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">KAJU KATRI</h5>
+                      <p class="mb-0">FROM: ₹700 <small>PER KG</small></p>
+                    </div>
+                  </div>
+                </div>
+            
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/s3.JPG" class="card-img-top" alt="Red Velvet Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">GULAB JAMUN</h5>
+                      <p class="mb-0">FROM: ₹850 <small>PER KG</small></p>
+                    </div>
+                  </div>
+                </div>
+            
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/s4.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">RASMALAI</h5>
+                      <p class="mb-0">FROM: ₹500 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/s5.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">LADDU</h5>
+                      <p class="mb-0">FROM: ₹650<small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/s6.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">RASAGULA</h5>
+                      <p class="mb-0">FROM: ₹550 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/s1.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">MILK BURFI</h5>
+                      <p class="mb-0">FROM: ₹600 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+            
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                  <div class="card position-relative" onclick="showSection('order')">
+                    <img src="bakery website/s2.JPG" class="card-img-top" alt="Choco Delight Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">KAJU KATRI</h5>
+                      <p class="mb-0">FROM: ₹700 <small>PER KG</small></p>
+                    </div>
+                  </div>
+                </div>
+            
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/s3.JPG" class="card-img-top" alt="Red Velvet Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">GULAB JAMUN</h5>
+                      <p class="mb-0">FROM: ₹850 <small>PER KG</small></p>
+                    </div>
+                  </div>
+                </div>
+            
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/s4.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">RASMALAI</h5>
+                      <p class="mb-0">FROM: ₹500 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/s5.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">LADDU</h5>
+                      <p class="mb-0">FROM: ₹650<small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/s6.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">RASAGULA</h5>
+                      <p class="mb-0">FROM: ₹550 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+              
+                
+              <img src="bakery website/5fade234b61c21ff46b3cca75777c56a-removebg-preview 1.png" alt="Decorative Line" class="decorative-line">
+            
+          </div>
+
+
+          </section>
+
+          <section id="cookies">
+            <h2 class="text-center mb-5 mt-5">COOKIES</h2>
+            <div class="container py-5">
+              <div class="row g-4">
+            
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/C1.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">SNICKER DOODLES</h5>
+                      <p class="mb-0">FROM: ₹600 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+            
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                  <div class="card position-relative" onclick="showSection('order')">
+                    <img src="bakery website/C2.JPG" class="card-img-top" alt="Choco Delight Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">MACARONS</h5>
+                      <p class="mb-0">FROM: ₹700 <small>PER KG</small></p>
+                    </div>
+                  </div>
+                </div>
+            
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/C3.JPG" class="card-img-top" alt="Red Velvet Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">COCONUT COOKIES</h5>
+                      <p class="mb-0">FROM: ₹850 <small>PER KG</small></p>
+                    </div>
+                  </div>
+                </div>
+            
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/C4.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">BUTTER COOKIES</h5>
+                      <p class="mb-0">FROM: ₹1200 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/C5.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">ALFAJORES</h5>
+                      <p class="mb-0">FROM: ₹650<small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/C6.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">BISCOTI</h5>
+                      <p class="mb-0">FROM: ₹550 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/C1.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">SNICKER DOODLES</h5>
+                      <p class="mb-0">FROM: ₹600 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+            
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                  <div class="card position-relative" onclick="showSection('order')">
+                    <img src="bakery website/C2.JPG" class="card-img-top" alt="Choco Delight Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">MACARONS</h5>
+                      <p class="mb-0">FROM: ₹700 <small>PER KG</small></p>
+                    </div>
+                  </div>
+                </div>
+            
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/C3.JPG" class="card-img-top" alt="Red Velvet Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">COCONUT COOKIES</h5>
+                      <p class="mb-0">FROM: ₹850 <small>PER KG</small></p>
+                    </div>
+                  </div>
+                </div>
+            
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/C4.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">BUTTER COOKIES</h5>
+                      <p class="mb-0">FROM: ₹1200 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/C5.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">ALFAJORES</h5>
+                      <p class="mb-0">FROM: ₹650<small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card position-relative">
+                    <img src="bakery website/C6.JPG" class="card-img-top" alt="Black Forest Cake">
+                    <button class="btn position-absolute top-0 end-0 m-2 bg-white rounded-circle p-2">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <div class="card-body text-center" style="background-color:#f5e8c7;">
+                      <h5 class="fw-bold">BISCOTI</h5>
+                      <p class="mb-0">FROM: ₹550 <small>PER KG</small></p>
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              
+                
+              <img src="bakery website/5fade234b61c21ff46b3cca75777c56a-removebg-preview 1.png" alt="Decorative Line" class="decorative-line">
+            
+          </div>
+
+          </section>
+
+          <section id="blog">
+            <div class="container py-5">
+              <!-- Title -->
+              <h2 class="section-title">Welcome to Our Bakery Blog</h2>
+          
+              <!-- Content Row -->
+              <div class="row align-items-center">
+                
+                <!-- Left Image -->
+                <div class="col-md-6 text-center">
+                  <img src="bakery website/0f8f93a337da9a0dcee0ce796622770d 1.png" 
+                       alt="Bakery Bread" class="blog-img shadow">
+                </div>
+                
+                <!-- Right Text -->
+                <div class="col-md-6 blog-text mt-4 mt-md-0">
+                  <p>Fresh Bakes, Sweet Stories & Artisan Inspiration</p>
+                  <p>
+                    At Cherii Bakery, our passion for baking goes beyond the oven—it’s a story we love to share. 
+                    This blog is your go-to destination for everything sweet, savory, and lovingly handmade. 
+                    Whether you're a fellow baker, a food lover, or just someone who enjoys the warmth of freshly 
+                    baked bread, our blog is filled with something just for you.
+                  </p>
+                </div>
+          
+              </div>
+            </div>
+          
+
+            <div class="container py-5">
+              <div class="row">
+                
+                <!-- Left Text -->
+                <div class="col-md-6 blog-texts">
+                  <h3 class="section-title">What You’ll Find Here:</h3>
+          
+                  <h4 class="highlight-title">Behind-the-Scenes Stories</h4>
+                  <p>
+                    Get a peek inside our kitchen, meet our talented bakers, and learn what goes into creating your favorite pastries, cakes, and loaves.
+                  </p>
+          
+                  <h4 class="highlight-title">Seasonal Specials & New Arrivals</h4>
+                  <p>
+                    Be the first to know about our latest menu additions, seasonal treats, and limited-edition goodies.
+                  </p>
+                
+                
+                    
+                    <!-- Left Text -->
+                    
+                      <!-- ✅ New sections -->
+                      <h4 class="highlight-title">Recipes & Baking Tips</h4>
+                      <p>
+                        Try your hand at some of our favorite recipes and get expert tips to help you bake like a pro at home.
+                      </p>
+              
+                      <h4 class="highlight-title">Customer Spotlights & Events</h4>
+                      <p>
+                        We love our community! Read about our amazing customers, featured events, and special moments shared in our bakery.
+                      </p>
+                    
+                    <h4 class="highlight-title">Sustainability & Ingredients</h4>
+                    <p>
+                      Learn more about the ingredients we use,our sourcing practices and how 
+                      we're working better for you and the planet.
+                    </p>
+              </div>
+                <!-- Right Image -->
+                <div class="col-md-6 text-center">
+                  <img src="bakery website/25a11452da0161a6bbaae3066a7d8d1c 1.png" 
+                       alt="Blueberry Dessert" class="blog-img shadow">
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <p class="closing-text">
+                Whether you're here for mouthwatering ideas or curious about what’s next in our oven, 
+                our blog is a delicious stop on your journey. Stay connected with us, leave a comment, 
+                and don’t forget to subscribe so you never miss a crumb!
+              </p>
+            </div>
+          </section>
+          <section id="contact" style="background-color: #fff8f0;">
+            <div class="contact-section">
+              <div class="container">
+                <div class="text-center mb-5">
+                  <h3 class="contact-title mt-4">SEND US A MESSAGE</h3>
+                  <p class="contact-sub">
+                    You can also use the form below to contact us directly. 
+                    Our team will get back to you within 24 hours.
+                  </p>
+                </div>
+                <div class="row align-items-center">
+                  
+                  <!-- Left Side Form -->
+                  <div class="col-md-6">
+                    <form>
+                      <div class="mb-3">
+                        <label class="form-label">Name*</label>
+                        <input type="text" class="form-control">
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-label">E Mail*</label>
+                        <input type="email" class="form-control" >
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-label">Phone Number*</label>
+                        <input type="tel" class="form-control" >
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-label">Subject*</label>
+                        <input type="text" class="form-control" >
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-label">Message*</label>
+                        <textarea class="form-control" rows="4" ></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-yellow">SEND MESSAGES</button>
+                    </form>
+                  </div>
+                  
+                  <!-- Right Side Image -->
+                  <div class="col-md-6 text-center">
+                    <img src="bakery website/687c3c25f948e2ce2c65ea97ff50cc2d 1.png" alt="Motivational Quote" class="img-fluid rounded shadow">
+                  </div>
+          
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="branches-section">
+              <div class="container">
+                <h2 class="branches-title">OUR BRANCHES ACROSS TAMIL NADU</h2>
+                <div class="row align-items-center">
+                  
+                  <!-- Left Side Image -->
+                  <div class="col-md-6 text-center mb-4 mb-md-0">
+                    <img src="bakery website/image 1.png" alt="Cherii's Bakery" class="img-fluid branch-image">
+                  </div>
+                  
+                  
+                  <!-- Right Side Addresses -->
+                  <div class="col-md-6 branches-list">
+                    <p>
+                      <strong>Chennai</strong>
+                      No. 45, Anna Salai, T. Nagar, Chennai – 600017
+                    </p>
+                    <p>
+                      <strong>Coimbatore</strong>
+                      12, DB Road, RS Puram, Coimbatore – 641002
+                    </p>
+                    <p>
+                      <strong>Madurai</strong>
+                      28, KK Nagar Main Road, Madurai – 625020
+                    </p>
+                    <p>
+                      <strong>Tiruchirappalli (Trichy)</strong>
+                      7, Salai Road, Thillai Nagar, Trichy – 620018
+                    </p>
+                  
+                  
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                
+                <!-- Left Side Images -->
+                <div class="col-md-6">
+                  <img src="bakery website/image 2.png" alt="Bakery 1" class="branch-img">
+                
+                </div>
+                
+                <!-- Right Side Addresses -->
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                  <div class="address-block mb-4">
+                    <h5>Salem</h5>
+                    <p>15, Five Roads, Fairlands, Salem – 636016</p>
+                  </div>
+                  <div class="address-block mb-4">
+                  <h5>Tirunelveli</h5>
+                    <p>11, South Bypass Road, Palayamkottai, Tirunelveli – 627002</p>
+                  </div>
+                  <div class="address-block mb-4">
+                    <h5>Erode</h5>
+                    <p>9, Brough Road, Erode – 638001</p>
+                  </div>
+                  <div class="address-block">
+                    <h5>Vellore</h5>
+                    <p>14, Katpadi Road, Gandhi Nagar, Vellore – 632006</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="container">
+    <div class="row">
+      
+      <!-- Left Side Images -->
+      <div class="col-md-6">
+        <img src="bakery website/image.png" alt="Bakery 3" class="branch-img img-tilt-left">
+     
+      </div>
+      
+      <!-- Right Side Addresses -->
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+        <div class="address-block mb-4">
+          <h5>Thanjavur</h5>
+          <p>10, Medical College Road, Thanjavur – 613004</p>
+        </div>
+        <div class="address-block mb-4">
+          <h5>Dindigul</h5>
+          <p>4, GTN Road, Dindigul – 624005</p>
+        </div>
+        <div class="address-block mb-4">
+          <h5>Kanchipuram</h5>
+          <p>3, Ekambaranathar Sannathi Street, Kanchipuram – 631502</p>
+        </div>
+        <div class="address-block">
+          <h5>Karur</h5>
+          <p>22, Kovai Road, Karur – 639002</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+          </section>
+
+
+<section id="login">
+  <div class="tab-container">
+    <div class="tab active">
+      <i class="fa-solid fa-right-to-bracket"></i> Login
+    </div>
+    <div class="tab" onclick="showSection('register')">
+      <i class="fa-solid fa-user" ></i> Register
+    </div>
+  </div>
+  <div class="container form-section">
+    <div class="row align-items-center">
+      <!-- Left: Login Form -->
+      <div class="col-md-6">
+        <form>
+          <div class="mb-4">
+            <label class="form-label fw-bold">E-Mail</label>
+            <input type="email" class="form-control" placeholder="Enter Your E-Mail">
+          </div>
+          <div class="mb-4">
+            <label class="form-label fw-bold">Password</label>
+            <input type="password" class="form-control" placeholder="Enter Your Password">
+          </div>
+          <button type="submit" class="btn btn-warning px-5" style="color:white">Login</button>
+        </form>
+        <a href="#" class="forgot-link">Last Your Password</a>
+    
+        <!-- Register -->
+        <div class="register-text">
+          Don’t Have An Account?
+          <a href="#" onclick="showSection('register')">Register</a>
+        </div>
+    
+      </div>
+  
+
+     
+    
+        <!-- Forgot Password -->
+      
+      
+    
+      <!-- Right: Image -->
+      <div class="col-md-6 text-center">
+        <div class="cake-wrapper">
+          <img src="bakery website/Cake1.JPG" alt="Chocolate Cake">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="register">
+  <div class="tab-container">
+    <div class="tab" onclick="showSection('login')">
+      <i class="fa-solid fa-right-to-bracket"></i> Login
+    </div>
+    <div class="tab active">
+      <i class="fa-solid fa-user"></i> Register
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="container form-section">
+    <div class="row align-items-center">
+      <!-- Left: Image -->
+      <div class="col-md-5 text-center mb-4">
+        <div class="cake-wrapper">
+          <img src="bakery website/Cake1.JPG" alt="Chocolate Cake">
+        </div>
+      </div>
+
+      <!-- Right: Register Form -->
+      <div class="col-md-7">
+        <form>
+          <div class="mb-3">
+            <label class="form-label fw-bold">E-Mail</label>
+            <input type="email" class="form-control" placeholder="Enter Your E-Mail">
+          </div>
+          <div class="mb-3">
+            <label class="form-label fw-bold">Password</label>
+            <input type="password" class="form-control" placeholder="Enter Your Password">
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label class="form-label fw-bold">First Name</label>
+              <input type="text" class="form-control" placeholder="First Name">
+            </div>
+            <div class="col-md-6 mb-3">
+              <label class="form-label fw-bold">Last Name</label>
+              <input type="text" class="form-control" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="form-check mb-4">
+            <input class="form-check-input" type="checkbox" id="terms">
+            <label class="form-check-label" for="terms">
+              I Have Read And Agree To The <span>Terms</span> And <span>Privacy Policy</span>
+            </label>
+          </div>
+          <button type="submit" class="btn-register">Register</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section id="payment">
+  <div class="container py-5">
+    <div class="row g-4 align-items-center">
+      <!-- Image -->
+      <div class="col-lg-6">
+        <div class="position-relative">
+          <img src="bakery website/Cake2.JPG" alt="Choco Delight Cake" class="img-fluid product-img" style="height: 600px;">
+          <div class="position-absolute bottom-0 end-0 m-3 d-flex gap-2">
+            
+          </div>
+        </div>
+      </div>
+  
+      <!-- Details -->
+      <div class="col-lg-6">
+        <p class="fw-semibold text-secondary mb-1">Cherii bakery</p>
+        <h1 class="product-title">CHOCO DELIGHT CAKE</h1>
+        <p class="mb-4 fs-2 fw-bold" style="color: black;line-height: 1.1;">
+          This delectable treat is a heavenly combination of rich, velvety chocolate and a melt‑in‑your‑mouth texture. Whether you’re a chocolate lover or looking to satisfy your sweet tooth, Choco Delight Cake is the perfect choice.
+        </p>
+        <div class="price">₹ 400</div>
+        <div class="tax">INCL. OF ALL TAXES</div>
+      
+
+<!-- Weight Selection -->
+<div class="mt-4">
+<strong>WEIGHT:</strong>
+<div class="d-flex gap-2 mt-2 flex-wrap">
+<button class="btn btn-sm  weight-btn active">500 G</button>
+<button class="btn btn-sm  weight-btn">1 KG</button>
+<button class="btn btn-sm  weight-btn">2 KG</button>
+<button class="btn btn-sm btn-light weight-btn">3 KG</button>
+<button class="btn btn-sm btn-light weight-btn">4 KG</button>
+<button class="btn btn-sm btn-light weight-btn">5 KG</button>
+</div>
+</div>
+
+<!-- Quantity Selection -->
+<div class="mt-4">
+<strong>QUANTITY:</strong>
+<div class="input-group quantity-control mt-2" style="width: fit-content;">
+<button class="btn btn-light">+</button>
+<input type="text" class="form-control" value="01">
+<button class="btn btn-light">-</button>
+</div>
+</div>
+</div>
+</div>
+  </div>
+  <div class="container">
+    <div class="row">
+      
+      <!-- Left: Address Form -->
+      <div class="col-md-6">
+       
+        <form>
+          <input type="text" class="form-control" placeholder="Name*">
+          <input type="text" class="form-control" placeholder="Delivery Location*">
+          <input type="text" class="form-control" placeholder="Mobile No*">
+          <input type="text" class="form-control" placeholder="Add Notes*">
+          <textarea class="form-control" rows="3" placeholder="Address*"></textarea>
+          <button type="submit" class="btn-yellow mt-2">Add Address</button>
+        </form>
+      </div>
+
+      <!-- Right: Image + Payment + Summary -->
+      <div class="col-md-6 text-center">
+
+        <!-- Cake Image -->
+        <img src="bakery website/e794c132331c4271a69ce870ec1bc435 1.png" style="width: 70%;" class="img-fluid mt-3 rounded" alt="Cake">
+      </div>
+        <!-- Payment Options -->
+        <h6 class="mt-4">Payment Options</h6>
+        <div class="payment-box">
+          <input type="radio" name="payment" id="upi"> 
+          <label for="upi"><i class="fa-solid fa-indian-rupee-sign"></i> Pay UPI</label>
+          <input type="text" class="form-control mt-2" placeholder="UPI Id">
+        </div>
+
+        <div class="payment-box">
+          <input type="radio" name="payment" id="wallet"> 
+          <label for="wallet"><i class="fa-solid fa-wallet"></i> Pay Wallet</label>
+          <input type="text" class="form-control mt-2" placeholder="Wallet Id">
+        </div>
+
+        <div class="payment-box">
+          <input type="radio" name="payment" id="card"> 
+          <label for="card"><i class="fa-solid fa-credit-card"></i> Pay Credit Card</label>
+          <input type="text" class="form-control mt-2" placeholder="Credit Card Id">
+        </div>
+
+        <!-- Order Summary -->
+        <h6 class="mt-4">Order Summary</h6>
+        <div class="summary">
+          <div><span>Quantity</span><span>1 KG Cake</span></div>
+          <div><span>Total Product Price</span><span>+700</span></div>
+          <div><span>Discount Amount 15%</span><span>-150</span></div>
+          <div><span>Delivery Fee</span><span>+40</span></div>
+          <div><span>Incl. GST(5%)</span><span>+35</span></div>
+          <div class="total"><span>Total Price Amount</span><span>₹ 625</span></div>
+        </div>
+
+        <!-- Pay Button -->
+        <button class="btn-yellow w-50 mt-3 mb-4" style="color: black;" onclick="showSection('delivery')">Pay & Order Now</button>
+      </div>
+    </div>
+  
+</section>
+<button class="restart-btn" onclick="showSection('home');">Restart<Span style="color:#2E4053"> R</Span></button>
+    
+
+<section id="delivery">
+  <div class="container order-container">
+    <!-- Top Title -->
+    <div class="order-title">
+      THE ORDER WAS PROCESSED, FULFILLED, AND DELIVERED <br>
+      AS WITHIN ONE DAY
+    </div>
+
+    <div class="row align-items-center">
+      <!-- Left Side Text -->
+      <div class="col-md-6">
+        <div class="summary-title">ORDER SUMMARY</div>
+        <div class="summary-text"><b>PRODUCT ID:</b> DRF43567GS48JGDS</div>
+        <div class="summary-text"><b>ORDER DATE:</b> 01-05-2025 04.00 P.M</div>
+        <div class="summary-text"><b>EXPECTED DELIVERY DATE:</b> 02-05-2025 12.00 A.M</div>
+        <div class="summary-text"><b>TRACKING ID:</b> ZfvdF457G</div>
+      </div>
+
+      <!-- Right Side Image -->
+      <div class="col-md-6 text-center">
+        <img src="bakery website/Cake2.JPG" alt="Cake" class="order-img">
+      </div>
+    </div>
+  </div>
+  <div class="container py-5">
+    <div class="row align-items-center">
+      <!-- Left: Timeline -->
+      <div class="col-md-6">
+        <div class="track-title">TRUCK YOUR ORDER</div>
+        <div class="timeline">
+          <div class="timeline-step">
+            <div class="step-title">PLACE YOUR ORDER</div>
+            <div class="step-time">01-05-2025 12.00PM</div>
+          </div>
+          <div class="timeline-step">
+            <div class="step-title">BILLING YOUR ORDER</div>
+            <div class="step-time">01-05-2025 1.00PM</div>
+          </div>
+          <div class="timeline-step">
+            <div class="step-title">LOADING YOUR ORDER</div>
+            <div class="step-time">01-05-2025 3.30PM</div>
+          </div>
+          <div class="timeline-step">
+            <div class="step-title">DELIVERY EXPECTED</div>
+            <div class="step-time">02-05-2025 12.30PM</div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Right: Map -->
+      <div class="col-md-6 text-center">
+        <img src="bakery website/map.JPG" alt="Delivery Map" class="map-img">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="whish">
+  <div class="d-flex justify-content-center align-items-center vh-100">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <!-- Cake Card -->
+          <div class="position-relative cake-card">
+            <img src="bakery website/Cake2.JPG" alt="Choco Delight Cake">
+            <div class="wishlist-icon">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="card-body">
+              <h6>CHOCO DELIGHT CAKE</h6>
+              <p>FROM: ₹700 PER KG</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 d-flex justify-content-end align-items-start gap-2">
+          <button class="btn btn-custom">REMOVE ALL</button>
+          <button class="btn btn-customs">NEXT</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <!-- Logo -->
+      <div class="col-md-3">
+        <div class="footer-logo">
+          <h1 class="logo-title">Cherii<span class="cherry-icon"></span></h1>
+          <p class="logo-subtitle">Bakery & cakes</p>
+        </div>
+       
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-3">
+        <h5>Quick Links</h5>
+        <a href="#">Track Your Order</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund & Cancellation Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <!-- Shop -->
+      <div class="col-md-3">
+        <h5>Shop</h5>
+        <a href="#">Cookies</a>
+        <a href="#">Muesli</a>
+        <a href="#">Granola Bars</a>
+        <a href="#">Seed Mixes</a>
+        <a href="#">Gift Boxes</a>
+        <a href="#">Super Savers</a>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-3">
+        <h5>Contact</h5>
+        <p><i class="fa-solid fa-location-dot"></i> No.45, Anna Salai, T. Nagar, Chennai - 600 017</p>
+        <p><i class="fa-solid fa-envelope"></i> info@cherii.com</p>
+        <p><i class="fa-solid fa-phone"></i> +123 456 7890</p>
+        <h5>Follow us</h5>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+    
